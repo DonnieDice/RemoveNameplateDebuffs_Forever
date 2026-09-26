@@ -1,0 +1,24 @@
+## Interface: 16001
+## Version: v3.3.7-forever.1
+## RequiredDeps: RGX-Framework
+## Title: |cffff7d00R|r|cffffffffemove|r |cffff7d00N|r|cffffffffameplate|r |cffff7d00D|r|cffffffffebuffs|r|cffff7d00!|r |cffFFD700(Forever)|r
+## Notes: WoW Forever (project Camelot) flavor. Remove Debuff Icons from Enemy Nameplates|n|r   |cffff7d00By DonnieDice|r
+## Author: DonnieDice
+## Category: RGX
+## Group: RGX
+## Email: donniedice@protonmail.com
+## IconTexture: Interface\AddOns\RemoveNameplateDebuffs_Forever\media\icon.tga
+## SavedVariables: RNDForeverSettings
+
+## X-Category: Buffs & Debuffs
+## X-Website: https://github.com/RGXMods/RemoveNameplateDebuffs_Forever
+## X-Curse-Project-ID: 1712139
+
+## X-Embeds:
+## X-License: MIT
+## X-Localizations: enUS, ruRU, deDE, frFR, esES
+## DefaultState: Enabled
+## LoadOnDemand: 0
+
+data\locales.lua
+data\core.lua
