@@ -118,7 +118,7 @@ _<span style="color:#e67e23">Every donation helps fund new features and improvem
 | 🛡️ **Plater Compatible** | *(In Development)* Full integration with Plater addon |
 | 🚀 **Zero Configuration** | Works immediately after installation |
 | 🎮 **Multi-Version** | Works across supported WoW versions |
-| 🌍 **Multi-Language** | Supports 5 languages with automatic detection |
+| 🌍 **Multi-Language** | Supports all 12 WoW client locales (enUS, deDE, esES, esMX, frFR, itIT, koKR, ptBR, ptPT, ruRU, zhCN, zhTW) with automatic detection |
 | 💾 **Persistent Settings** | Settings saved automatically between sessions |
 | 🛡️ **Error Protected** | pcall error handling throughout |
 
