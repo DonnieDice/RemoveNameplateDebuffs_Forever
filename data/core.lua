@@ -331,7 +331,7 @@ function RND:DisplayWelcomeMessage()
 	end
 
 	-- Welcome messages matching RGX Mods standard (same format as BLU)
-	print(CHAT_PREFIX .. " Welcome. " .. self.L["TYPE_HELP"])
+	print(CHAT_PREFIX .. " " .. (self.L["WELCOME_MESSAGE"] or "Welcome to RND! Type |cffffffff/rnd help|r for commands"))
 	print(CHAT_PREFIX .. " |cffffff00Version:|r |cff8080ff" .. ADDON_VERSION .. "|r")
 
 	-- Show community message on first run
@@ -473,8 +473,8 @@ function RND:ShowHelp()
 
 	print(CHAT_PREFIX .. " " .. self.L["HELP_HEADER"])
 	print(CHAT_PREFIX .. " " .. self.L["HELP_TEST"])
-	print(CHAT_PREFIX .. " |cffffffff/rnd on|r - Enable addon")
-	print(CHAT_PREFIX .. " |cffffffff/rnd off|r - Disable addon")
+	print(CHAT_PREFIX .. " " .. (self.L["HELP_ENABLE"] or "|cffffffff/rnd enable|r - Enable addon"))
+	print(CHAT_PREFIX .. " " .. (self.L["HELP_DISABLE"] or "|cffffffff/rnd disable|r - Disable addon"))
 	print(CHAT_PREFIX .. " " .. self.L["HELP_STATUS"])
 	print(CHAT_PREFIX .. " |cffffffff/rnd welcome on|r - " .. (self.L["HELP_WELCOME_ON"] or "Enable welcome message"))
 	print(CHAT_PREFIX .. " |cffffffff/rnd welcome off|r - " .. (self.L["HELP_WELCOME_OFF"] or "Disable welcome message"))
